@@ -7,7 +7,7 @@ Include the date you created this project and README file.
 Replace the Project Title
 
 ### Description
-Describe what your project is about and what it does
+This project is to prove the ability to understand Git concept and use command line for execution.
 
 ### Files used
 Include the files used
