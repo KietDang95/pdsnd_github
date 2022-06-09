@@ -13,6 +13,7 @@ MONTHS = {
     'april' : 4,
     'may' : 5,
     'june' : 6
+
     }
 
 
@@ -41,8 +42,8 @@ def get_filters():
     # transform all input letters to lower case
     while True:
         month = input('Select a month: \n' \
-                      'all, january, february, march, april, may, or june?\n').lower()
-        if month in ['all', 'january', 'february', 'march', 'april', 'may', 'june']:
+                      'all, january, february, march, april, may, or june?\n')
+        if month.lower() in ['all', 'january', 'february', 'march', 'april', 'may', 'june']:
             break
         else:
             print("*** only accepts these options: all, january, february, march, april, may, or june\n")
@@ -58,9 +59,9 @@ def get_filters():
             print("*** only accepts these options: all, monday, tuesday, wednesday, thursday, friday, saturday, sunday\n")
 
     print('-'*40)
-    print('Your choice: ', city, month, day)
+    print('You choose: ', city.lower(), month.lower(), day)
     print('-'*40)
-    return city.lower(), month, day
+    return city.lower(), month.lower(), day
 
 
 def load_data(city, month, day):
