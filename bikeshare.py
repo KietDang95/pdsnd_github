@@ -59,7 +59,7 @@ def get_filters():
             print("*** only accepts these options: all, monday, tuesday, wednesday, thursday, friday, saturday, sunday\n")
 
     print('-'*40)
-    print('You choose: ', city.lower(), month.lower(), day)
+    print('Your choice: ', city.lower(), month.lower(), day)
     print('-'*40)
     return city.lower(), month.lower(), day
 
