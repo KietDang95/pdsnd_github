@@ -30,9 +30,9 @@ def get_filters():
     # transform all input letters to lower case
     while True:
         city = input('Select a city: \n' \
-                     'chicago, new york city, or washington?\n').lower()
+                     'chicago, new york city, or washington?\n')
         
-        if city in CITY_DATA.keys():
+        if city.lower() in CITY_DATA.keys():
             break
         else:
             print("*** only accepts these options: chicago, new york city, or washington\n")
@@ -60,7 +60,7 @@ def get_filters():
     print('-'*40)
     print('Your choice: ', city, month, day)
     print('-'*40)
-    return city, month, day
+    return city.lower(), month, day
 
 
 def load_data(city, month, day):
