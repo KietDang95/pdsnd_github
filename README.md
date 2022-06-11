@@ -31,7 +31,6 @@ note: README.md
 ### Credits
 Clone structure from here: https://github.com/udacity/pdsnd_github
 
-<<<<<<< HEAD
 ### Data
 No push data files to github
 Put names of data files to .gitignore
@@ -39,19 +38,3 @@ Put names of data files to .gitignore
 ### Script file
 Push bikeshare.py to github
 No put name of script file to .gitignore
-||||||| 6e3c755
-### Edit 1 
-Edit something
-
-### Edit 2 
-Edit some more
-
-### Edit 3 
-Last edit
-
-### Edit 4 
-Additional change 1 
-=======
-### Data
-No push data files to github
->>>>>>> a56a62be5419c27e3cf1246bd49f8052fee81f4a
