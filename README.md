@@ -24,17 +24,17 @@ The next branch I'll be working on will be refactoring. Here, I can modify my bi
 Finally, once I am finished with my work, I can merge both branches to the master branch, and push it back up to the remote repository.
 
 ### Files used
-python script: bikeshare.py
-data files: chicago.csv, new_york_city.csv, washington.csv
-note: README.md
+python script: bikeshare.py.
+data files: chicago.csv, new_york_city.csv, washington.csv.
+note: README.md.
 
 ### Credits
 Clone structure from here: https://github.com/udacity/pdsnd_github
 
 ### Data
-No push data files to github
-Put names of data files to .gitignore
+No push data files to github.
+Put names of data files to .gitignore.
 
 ### Script file
-Push bikeshare.py to github
-No put name of script file to .gitignore
+Push bikeshare.py to github.
+No put name of script file to .gitignore.
